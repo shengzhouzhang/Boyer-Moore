@@ -1,4 +1,3 @@
-
 public class BM_CMP {
 	
 	private final int SIZE = 256;
@@ -8,7 +7,7 @@ public class BM_CMP {
 		
 		int length = pattern.length();
 		
-		for (int i = 0; i < 256; i++)
+		for (int i = 0; i < SIZE; i++)
 			lastOccurrence[i] = -1;
 		
 		for (int i = 0; i < length; i++)
